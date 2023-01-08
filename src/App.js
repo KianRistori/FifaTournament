@@ -88,14 +88,6 @@ function App() {
 
   return (
     <div>
-      <Helmet>
-        <title>Fifa Tournament</title>
-        <meta name="keywords" content="Fifa Tournament,Fifa" />
-        <meta
-        name="description"
-        content="A simple Fifa Tournament creator"
-        />
-      </Helmet>
       <div className="app">
         <div className="container">
           <h1 className="text-center mb-4">Fifa Tournament</h1>
