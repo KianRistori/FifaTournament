@@ -85,6 +85,15 @@ function App() {
     }
   }
 
+  function matchText() {
+    if (matchs.length >= 1)
+    {
+      return (
+        <h4 className="title">Matches</h4>
+      )
+    }
+  }
+
   return (
     <div>
       <div className="app">
@@ -107,6 +116,8 @@ function App() {
             <br></br>
           </div>
           {extractBtn()}
+          <br></br>
+          {matchText()}
           {matchs.map((matchs, index) => (
             <div class="alert alert-dark" id={index} role="alert">
               <h1>{matchs}</h1>
