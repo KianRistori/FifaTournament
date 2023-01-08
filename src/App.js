@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import { Button, Card, Form } from 'react-bootstrap';
-import { Helmet } from "react-helmet";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
