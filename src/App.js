@@ -89,7 +89,7 @@ function App() {
     <div>
       <div className="app">
         <div className="container">
-          <h1 className="text-center mb-4">Fifa Tournament</h1>
+          <h1 className="text-center mb-4 title">Fifa Tournament</h1>
           <FormPlayer addPlayer={addPlayer} />
           <div className="d-flex flex-column mt-3">
             {players.map((player, index) => (
